@@ -1,0 +1,17 @@
+Lab 5
+ Lab 1: EASY
+¢ List all the American Bully (*)
+
+¢ List of all the animals (name, dob, race) who don’t have the word color in their race description.
+
+ Lab 1: MED
+¢ List all the Cats and Parrots with their sex, species, latin name and race if exist. Group by animal type and by race.
+
+¢ List of the female dogs who have no race and was born before July 2012. (name, dob and race)
+
+ Lab 1: HARD
+¢ List all the Cats who have parents (name and parent’s name)
+
+¢ List of all Bouli’s kids (name, sex and dob)
+
+¢ List of all the animals who have a father, a mother and a race. We must know the parent’s race. (name, parents name, race name)

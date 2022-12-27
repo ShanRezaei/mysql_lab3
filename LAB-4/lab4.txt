@@ -1,0 +1,63 @@
+1. Species Table
+
+CREATE new table 'species' with the following fields
+id
+current_name
+latin_name
+description 
+Add a primary key to the table
+
+Engine must be InnoDB;
+
+INSERT into table created the following
+Dog 
+Canis familiaris 
+A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell.
+
+Cat
+Felis catus
+A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws.
+
+Turtle
+Testudo hermanni
+A slow-moving reptile, enclosed in a scaly or leathery domed shell into which it can retract its head and thick legs.
+
+Parrot
+Alipiopstitta xanthops
+A bird, often vividly colored, with a short down-curved hooked bill, grasping feet, and a raucous voice, found esp. in the tropics and feeding on fruits and seeds.
+
+Add a new colunm : species_id in animals
+Replace old species name with new species id from specie table
+Delete old species column
+Add Foreign Key
+
+Test: 
+INSERT INTO animals(name, species_id, dob)
+VALUES ('George', 5, '2009-02-23 12:54:00') -it should fail
+
+Make column species_id  not null
+Add a unique index on columns name and species_id
+
+2. Races 
+CREATE new table 'races' with the following fields
+id
+name
+species_id
+description
+Add a primary key to the table
+Add the reference key of specie
+Engine must be InnoDB;
+
+INSERT into table created (see insert_race.txt)
+
+Add a new colunm : race_id in animals
+Add race to animals (fk)
+Add Foreign Key
+
+
+3. Parents
+Add fields: mother_id and father_id
+Add Foreign Key to both (reference table is the same table)
+Give some animals a mother and a father (insert_race.txt)
+
+

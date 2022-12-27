@@ -1,0 +1,22 @@
+PS: PLEASE USE db_w2d1.txt FROM RESOURCES SO THAT EVERYONE WILL HAVE THE SAME DATABASE.
+PS2: Use a word document to save the snip and a screen shot of the result as per my example
+PS3: (name, sex, specie, dob) => The columns I want you to display in the result
+===========================================================================================
+
+1. List all the dogs and male turtles.
+2. List all the female cats and female dogs.
+3. List all the female dogs and the oldest turtle (name, sex, specie, dob). 
+4. List the animals born in 2007 (specie, name and date of birth).
+5. List the animals with any comments attached to their name (name, specie, comments).
+6. List the 5 oldest animals (name, specie, date of birth).
+7. List the 5 youngest animals (name, dob).
+8. List all the animals who's name starts with 'b'.
+9. List all the males except for the dogs and the cats.
+10. List all the female cats born between 2007 and 2009.
+11. List all the animals who's name ends with a and was born in 2009 and who's not a male.
+12. List of 2 female turtles sort  their name from z-a.
+13. Update all the "perrot" to "parrot".
+14. List of the animal called 'Bouli', parrot with comments and all the female born before 2008 (name, sex).
+15. Change all the "NULL" comments to "To Come"!
+16. How many species exist in total?
+17. Surprise me with a cool query!

@@ -1,0 +1,35 @@
+Lab 6:
+Please do all the following queries using sub queries and/or unions
+
+EASY
+1. Display the (1) oldest Cat and the (1) oldest Dog.
+2. Display the cats whose id is smaller than it's species's id.
+3. List all the female Chausie cats and turtles. (Name, DOB, Sex, Species)
+4. Update all the dog's nulled comments to "woff, woff, woff"
+5. Display the top 3 youngest animals of each race
+
+MED
+1. List all the Boxer and all the Bengal (Race Name, Animal Name)
+2. List of animals (Name, Sex, DOB, Race_Id) with a race .
+3. List of animals (Name, Sex, DOB, Race_Id) whose race has the word color in it.
+4. List all the dog and cats and turtle whose name has the letter 'a' in it.
+5. List all the male dogs, the female cats and the youngest parrot (name, sex, specie, dob), order by species_name
+
+
+HARD
+1. List all the Cats who has any parents.
+2. List of Bouli’s kid(s) (Name, Sex and DOB)
+3. List of all the animals whose id matches their species id
+4. Insert the following animal in the table:
+Name	: Mushu
+DoB	: 2015-11-11
+Sex	: M
+Species	: Dog
+Race	: Rottweiller
+
+5. Insert the following animal in the table, on duplicate change the name to 'Musha' and the sex to 'F'
+Name	: Mushu
+DoB	: 2015-11-11
+Sex	: M
+Species	: Dog
+Race	: Rottweiller

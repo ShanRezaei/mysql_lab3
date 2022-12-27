@@ -1,0 +1,45 @@
+
+
+EASY
+1. How many races exist in the animals table? (Display all of their name)
+2. How many species exist in the races table? (Display all of their name)
+3. How many Dogs have a father? (Display the children's name and the father's name)
+4. What is the average race price of each specie?
+5. How many males and females exist in the animals table?
+6. Give the name of 6 random males and 4 random females.
+7. How many animals have the same name length?
+
+EASIER
+1. Whice race doesn’t have any animal attached to it?
+2. Which specie has less than 5 males (order by latin_name alphabetically)
+3. What is the average animal age per species?
+4. How many males and females of each race do we have? Do a total count for the race (male and female) and for the species. Display the race name and the current species name.
+5. What would be the cost per species and the total cost to adopte: Parlotte, Spoutnik, Caribou, Cartouche, Cali, Canaille, Yoda, Zambo and Lulla?
+6. What's the median price of the species?
+(median = (max + min)/2)
+7. Assuming the inflation rises 20% more every year, show the prices of each animal for the next 5 years. (based on specie's race)
+8. insert thid animal into your table:
+'Nebelung', 2, 'A cat species that look some what like Chausies who are bred to be medium to large in size, as compared to traditional domestic breeds (Chausie breed standard). Most Chausies are a little smaller than a male Maine Coon, for example, but larger than a Siamese. Adult Chausie males typically weigh 9 to 15 pounds. Adult females are usually 7 to 10 pounds.'
+
+EASIEST
+1. How much would it cost me to buy all the Dogs and all the Cats. Show the total per species and the overall total.
+2. What is the average price of all the Dogs and the average price of all the Cats.
+3. Would it cost more to buy all the males or all the females animals based on their race price?
+(if the race price is null, or the animal doesn't have a race attached to it, use their specie's price)
+4. Show a sentence giving the price of the species, for each species ex: The Dogs cost: 200$...
+5. Show the cats with the letter "a" as the second letter in their name.
+6. Show the names of parrots by replacing "a" with "@" and "e" with "3".
+7. Show the dogs with an even number of letters in their names.
+8. Show the taxes you would pay on each animals and the total price. Assuming GST = 5% and HST = 9.9975% (Round to the tens)
+ex: Price: 10$ GST: 0.5$ HST: 0.99975$ Total:  11.5$
+9. Give a nickname to all the animals with the following criteria:
+-max 10 characters
+-all lower cases
+-based on the reverse of their current name
+-starts their id
+-ends with their original name length
+-padding with "@"
+
+
+
+
